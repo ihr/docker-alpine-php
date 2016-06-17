@@ -44,6 +44,7 @@ RUN	echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposit
 		php7-pdo_dblib \
 		php7-curl \
 		php7-ctype \
+		php7-mbstring \
 		php7-fpm && \
     
     # Set environments
